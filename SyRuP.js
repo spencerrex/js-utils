@@ -9,6 +9,7 @@ var html = '\
 		</body>\
 	</html>';
 
+// SyRuP is an acrononym for Spencer y Rex u Peterson
 
 var SyRuP = {};
 
@@ -174,4 +175,7 @@ var html_2 = '<html>hi</html>';
 console.log(SyRuP.createDomTree(html));
 var myDom = SyRuP.createDomTree(html);
 console.log(myDom.h1.text);
+
+console.log('Spencer is the best!');
+
 
